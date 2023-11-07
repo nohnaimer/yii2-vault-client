@@ -1,6 +1,10 @@
 yii2-vault-client
 ==========================
 
+[![Latest Stable Version](https://poser.pugx.org/nohnaimer/yii2-vault-client/v/stable)](https://packagist.org/packages/nohnaimer/yii2-vault-client)
+[![License](https://poser.pugx.org/nohnaimer/yii2-vault-client/license)](https://packagist.org/packages/nohnaimer/yii2-vault-client)
+[![Total Downloads](https://poser.pugx.org/nohnaimer/yii2-vault-client/downloads)](https://packagist.org/packages/nohnaimer/yii2-vault-client)
+
 This extension client for Hashicorp Vault.
 
 ## Installation
