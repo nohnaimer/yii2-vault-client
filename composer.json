@@ -1,0 +1,45 @@
+{
+    "name": "nohnaimer/yii2-vault-client",
+    "description": "This extension client for Hashicorp Vault backend.",
+    "keywords": [
+        "yii2",
+        "extension",
+        "hashicorp",
+        "vault",
+        "client"
+    ],
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        }
+    ],
+    "homepage": "https://github.com/nohnaimer/yii2-vault-client",
+    "type": "yii2-extension",
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Maksim Astapenko",
+            "email": "actapenko@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1",
+        "yiisoft/yii2": ">=2.0.13",
+        "yiisoft/yii2-httpclient": "2.0.*",
+        "ext-json": "*"
+    },
+    "require-dev": {
+        "roave/security-advisories": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "nohnaimer\\vault\\": "src"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.1.x-dev"
+        }
+    }
+}
