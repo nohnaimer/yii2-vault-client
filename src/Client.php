@@ -149,7 +149,7 @@ class Client extends BaseObject
 
         try {
             $response = $request->send();
-        } catch (\Throwable $exception) {
+        } catch (\Exception $exception) {
             $dto = $this->createError($exception, $exception->getCode(), $exception->getMessage(), $url);
             Yii::info($dto->toArray(), __METHOD__);
             return false;
@@ -195,7 +195,7 @@ class Client extends BaseObject
         $dto->message = $message;
         $dto->request_url = $url;
 
-        if ($object instanceof \Throwable) {
+        if ($object instanceof \Exception) {
             $dto->trace = $object->getTrace();
         }
 
